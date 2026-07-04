@@ -5019,6 +5019,35 @@
   background: rgba(255, 255, 255, 0.1);
 }
  
+.whatsapp-float {
+  color: #ffffff;
+  right: 1.5rem;
+  width: 3.25rem;
+  bottom: 1.5rem;
+  height: 3.25rem;
+  display: flex;
+  z-index: 9999;
+  position: fixed;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #25D366;
+}
+ 
+.whatsapp-float:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+ 
+.whatsapp-float  svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+ 
 .BodyFont {
   font-size: 1rem;
   font-family: Inter;
@@ -5328,6 +5357,16 @@
   }
   .cta-buttons-row {
     flex-direction: column;
+  }
+  .whatsapp-float {
+    right: 1rem;
+    width: 3rem;
+    bottom: 1rem;
+    height: 3rem;
+  }
+  .whatsapp-float  svg {
+    width: 1.35rem;
+    height: 1.35rem;
   }
 }
  
