@@ -804,7 +804,7 @@ const Home = (props) => {
                     <span>Occupancy Optimization</span>
                   </div>
                 </div>
-                <button className="btn-primary btn btn-lg">
+                <button className="home-thq-btn-elm17 btn-primary btn btn-lg">
                   Request Property Management
                 </button>
               </div>
@@ -1076,6 +1076,10 @@ const Home = (props) => {
           .home-thq-btn-elm10 {
             padding-top: 0.5rem;
             padding-bottom: 0.5rem;
+          }
+          .home-thq-btn-elm17 {
+            margin: 0 auto;
+            display: block;
           }
           .home-container2 {
             display: none;
