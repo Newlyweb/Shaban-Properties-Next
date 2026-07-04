@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://conscious-tasty-caterpillar-utml4o.teleporthq.site/sitemap.xml
