@@ -5341,8 +5341,17 @@
     text-align: center;
     flex-direction: column;
   }
+  .filter-tabs-container {
+    gap: var(--spacing-xs);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .property-card {
     flex: 0 0 300px;
+  }
+  .filter-tab {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-size: var(--font-size-sm);
   }
   .home-portfolio-grid {
     grid-template-columns: 1fr;
@@ -5472,6 +5481,15 @@
   }
   .trust-grid {
     grid-template-columns: 1fr;
+  }
+  .filter-tabs-container {
+    gap: var(--spacing-xs);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .filter-tab {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-size: var(--font-size-xs);
   }
   .properties-hero-title {
     font-size: var(--font-size-2xl);
