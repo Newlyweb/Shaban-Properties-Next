@@ -47,13 +47,8 @@ const Home = (props) => {
             </p>
             <div className="hero-actions">
               <a href="#" className="home-link1">
-                <div className="btn-primary btn btn-lg">
+                <div className="home-thq-btn-elm10 btn btn-lg btn-outline">
                   <span>Explore Properties</span>
-                </div>
-              </a>
-              <a href="#" className="home-link2">
-                <div className="btn btn-lg btn-outline">
-                  <span>Request Consultation</span>
                 </div>
               </a>
             </div>
@@ -810,7 +805,7 @@ const Home = (props) => {
                   </div>
                 </div>
                 <button className="btn-primary btn btn-lg">
-                  Request Property Management Consultation
+                  Request Property Management
                 </button>
               </div>
             </div>
@@ -1062,8 +1057,9 @@ const Home = (props) => {
           .home-link1 {
             display: contents;
           }
-          .home-link2 {
-            display: contents;
+          .home-thq-btn-elm10 {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
           }
           .home-container2 {
             display: none;
