@@ -5313,6 +5313,29 @@
   .form-row {
     flex-direction: column;
   }
+  .search-tabs {
+    gap: 0;
+    padding-bottom: 0;
+    justify-content: space-between;
+  }
+  .search-tab {
+    flex: 1 1 0;
+    height: 2.5rem;
+    display: flex;
+    padding: var(--spacing-sm) 0.25rem;
+    overflow: hidden;
+    font-size: 0.7rem;
+    min-width: 0;
+    text-align: center;
+    align-items: center;
+    line-height: 1.4;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    justify-content: center;
+  }
+  .search-tab.active::after {
+    bottom: 0;
+  }
   .showcase-header {
     gap: var(--spacing-md);
     text-align: center;
@@ -5441,6 +5464,11 @@
   }
   .subscribe-card {
     padding: var(--spacing-2xl) var(--spacing-lg);
+  }
+  .search-tab {
+    padding: var(--spacing-sm) 0.05rem;
+    font-size: 0.55rem;
+    letter-spacing: -0.02em;
   }
   .trust-grid {
     grid-template-columns: 1fr;

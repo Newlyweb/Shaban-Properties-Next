@@ -61,13 +61,13 @@ const Home = (props) => {
                   Rent
                 </button>
                 <button data-type="commercial" className="search-tab">
-                  Commercial
+                  Comm.
                 </button>
                 <button data-type="land" className="search-tab">
                   Land
                 </button>
                 <button data-type="investment" className="search-tab">
-                  Investment
+                  Invest
                 </button>
               </div>
               <div className="search-form-box">
