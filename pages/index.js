@@ -1086,6 +1086,12 @@ const Home = (props) => {
           .home-container3 {
             display: contents;
           }
+          @media (max-width: 479px) {
+            .home-thq-btn-elm17 {
+              margin: 0 auto;
+              display: block;
+            }
+          }
         `}
       </style>
     </>
