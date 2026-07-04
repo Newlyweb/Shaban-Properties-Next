@@ -729,16 +729,15 @@ const Home = (props) => {
                   </div>
                   <div className="m-feat-item">
                     <svg
-                      fill="none"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
-                      stroke="var(--color-primary)"
+                      width="24"
                       viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      stroke="var(--color-primary)"
                       strokeWidth="2"
                     >
-                      <path d="M12 2v20"></path>
-                      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                      <path d="M7 18V7.052a1.05 1.05 0 0 1 1.968-.51l6.064 10.916a1.05 1.05 0 0 0 1.968-.51V6M5 10h14M5 14h14"></path>
                     </svg>
                     <span>Rent Collection</span>
                   </div>
